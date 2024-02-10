@@ -11,6 +11,9 @@ dependencies:
     sdk: flutter
 
   cupertino_icons: ^1.0.2
+  provider: ^6.1.1
+  firebase_core: ^2.25.4
+  easy_localization: ^3.0.3
 
 dev_dependencies:
   flutter_test:
@@ -26,6 +29,7 @@ flutter:
     - assets/images/
     - assets/icons/
     - assets/fonts/
+    - assets/translations/
 
   # fonts:
   #   - family: Schyler
