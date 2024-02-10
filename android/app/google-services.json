@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "562604703690",
+    "project_id": "learn-remote-config-g9",
+    "storage_bucket": "learn-remote-config-g9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:562604703690:android:4f17f3c20814c61e239933",
+        "android_client_info": {
+          "package_name": "com.pdp.learn_remote_config_g9"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD60H9SlNPLjMBeHLlO0Vfxzpu3FGcr4uo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:562604703690:android:2210e284ea4244dd239933",
+        "android_client_info": {
+          "package_name": "com.pdp.mock_project"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD60H9SlNPLjMBeHLlO0Vfxzpu3FGcr4uo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
