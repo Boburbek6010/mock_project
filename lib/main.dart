@@ -1,6 +1,7 @@
 import 'package:easy_localization/easy_localization.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/cupertino.dart';
+import 'package:mock_project/feature/auth/view_model/auth_vm.dart';
 import 'package:mock_project/feature/counter/view_model/counter_vm.dart';
 import 'package:provider/provider.dart';
 import 'app.dart';
@@ -13,8 +14,11 @@ void main()async{
     options: DefaultFirebaseOptions.currentPlatform,
   );
   runApp(
-      ChangeNotifierProvider(
-      create: (context) => CounterVM(),
+      MultiProvider(
+        providers: [
+          ChangeNotifierProvider(create: (context) => CounterVM(),),
+          ChangeNotifierProvider(create: (context) => AuthVM(),),
+        ],
       child: EasyLocalization(
         supportedLocales: const [
           Locale("en", "US"),
